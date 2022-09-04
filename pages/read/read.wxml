@@ -1,0 +1,13 @@
+<!--pages/read/read.wxml-->
+<view style="margin:15px">
+    <view style="font-size:20px;text-align:center;padding:5px">
+        <text>{{read_title}}</text>
+    </view>
+    <view style="font-size:16px;color:#666;text-align:center">
+        <text>{{read_author}}</text>
+    </view>
+    <view style="font-size:18px;padding:10px 0 0 0;letter-spacing:2px;">
+        <text>{{read_content}}</text>
+    </view>
+    <button bindtap="read_change">换一篇</button>
+</view>

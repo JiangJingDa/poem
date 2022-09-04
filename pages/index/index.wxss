@@ -1,0 +1,25 @@
+/**index.wxss**/
+#view_main_img {
+  margin: 15px;
+}
+#view_main_img image {
+  border-radius: 10px;
+  width: 100%;
+}
+#view_main_sen {
+  padding: 15px;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+#view_main_senAuthor {
+  font-size: 18px;
+  font-style: italic;
+  text-align: right;
+  letter-spacing: 2px;
+}
+
+#view {
+  padding: 15px;
+  font-size: 18px;
+  letter-spacing: 2px;
+}

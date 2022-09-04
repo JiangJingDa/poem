@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view id="view_main_img">
+    <image mode="widthFix" src="{{main_img_src}}"></image>
+</view>
+<view id="view_main_sen">
+    <view id="view_main_senContent">
+        <text>{{main_sen}}</text>
+    </view>
+    <view id="view_main_senAuthor">
+        <text>{{main_senAuthor}}</text>
+    </view>
+</view>
